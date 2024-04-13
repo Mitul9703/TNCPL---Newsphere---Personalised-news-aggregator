@@ -9,7 +9,7 @@
  ### - https://drive.google.com/file/d/1L5EkkMUDsYHlPaHpB03Kp3U8qVIrcGwW/view?usp=drive_link
 
 ## Project report
- ### - https://drive.google.com/file/d/1L5EkkMUDsYHlPaHpB03Kp3U8qVIrcGwW/view?usp=drive_link
+ ### - https://drive.google.com/file/d/1sGRXYOl09Uz9_yZH1bOy_QSwpkPg0uCl/view?usp=sharing
 
 
 # Newsphere
