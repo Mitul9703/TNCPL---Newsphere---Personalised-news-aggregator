@@ -15,8 +15,10 @@
 ## Information
  ### - `Newsphere` is the mobile app.
  ### - `newsapi_backend` is the flask api backend.
- ### - `indicTrans_API_run_on_kaggle_using_ngrok` gives the kaggle file to run the Language Translation endpoint.
- ### - `content-based-filtering` gives the kaggle file where the CBF logic is implemented
+ ### - `indicTrans_API_run_on_kaggle_using_ngrok` gives the kaggle file to run the Language Translation endpoint
+  ### - Kaggle link - https://www.kaggle.com/code/mitul777/indictrans .
+ ### - `content-based-filtering` gives the kaggle file where the CBF logic is implemented.
+  ### - Kaggle link - https://www.kaggle.com/code/mitul777/news-recom
 
 
 # Newsphere
