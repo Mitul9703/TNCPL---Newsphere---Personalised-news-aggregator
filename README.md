@@ -86,7 +86,7 @@ To run this expo user app
 
 To run the flask backend api endpoints
 
-- cd into newsapi_backend `cd newsapi_backend` and install required packages.
+- cd into newsapi_backend `cd newsapi_backend` and install required packages by runnin `pip install -r requirements.txt`.
 - Run `python3 app.py` and `ngrok http 5000`.
 - Copy and paste the ngrok url in `Newsphere\contants\NgrokURL.js` and then hit `ctrl + s`.
 
