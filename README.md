@@ -12,6 +12,15 @@
  ### - https://drive.google.com/file/d/1sGRXYOl09Uz9_yZH1bOy_QSwpkPg0uCl/view?usp=sharing
 
 
+## Information
+ ### - `Newsphere` is the mobile app.
+ ### - `newsapi_backend` is the flask api backend.
+ ### - `indicTrans_API_run_on_kaggle_using_ngrok` gives the kaggle file to run the Language Translation endpoint
+  ### - Kaggle link - https://www.kaggle.com/code/mitul777/indictrans .
+ ### - `content-based-filtering` gives the kaggle file where the CBF logic is implemented.
+  ### - Kaggle link - https://www.kaggle.com/code/mitul777/news-recom
+
+
 # Newsphere
 
 ![image](https://github.com/Mitul9703/TNCPL---Newsphere---Personalised-news-aggregator/assets/60043776/215edb91-0ddb-4870-afb7-ff5703f785dd)
@@ -86,7 +95,7 @@ To run this expo user app
 
 To run the flask backend api endpoints
 
-- cd into newsapi_backend `cd newsapi_backend` and install required packages.
+- cd into newsapi_backend `cd newsapi_backend` and install required packages by runnin `pip install -r requirements.txt`.
 - Run `python3 app.py` and `ngrok http 5000`.
 - Copy and paste the ngrok url in `Newsphere\contants\NgrokURL.js` and then hit `ctrl + s`.
 
