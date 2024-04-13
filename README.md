@@ -2,14 +2,14 @@
 
 ## IMPORTANT!!!
 ## Please visit the following link for the Mobile app's video demostration and working and the project report
-  ### - [https://drive.google.com/drive/folders/1L-JTnvzR73yzERxmBL5tPcVzq3ivU8oD?usp=sharing]
+  ### - https://drive.google.com/drive/folders/1L-JTnvzR73yzERxmBL5tPcVzq3ivU8oD?usp=sharing
 
 
 ## Project Demo Video
- ### - [https://drive.google.com/file/d/1L5EkkMUDsYHlPaHpB03Kp3U8qVIrcGwW/view?usp=drive_link]
+ ### - https://drive.google.com/file/d/1L5EkkMUDsYHlPaHpB03Kp3U8qVIrcGwW/view?usp=drive_link
 
 ## Project report
- ### - [https://drive.google.com/file/d/1L5EkkMUDsYHlPaHpB03Kp3U8qVIrcGwW/view?usp=drive_link]
+ ### - https://drive.google.com/file/d/1L5EkkMUDsYHlPaHpB03Kp3U8qVIrcGwW/view?usp=drive_link
 
 
 # Newsphere
@@ -75,11 +75,38 @@ Read the detailed project report [here](https://drive.google.com/file/d/1L5EkkMU
 To run this expo user app
 
 - Clone this repository in your local system
-  `git clone <This repo URL>`
-- cd into the cloned directory and run the following command to install necessary packages.
+  `git clone https://github.com/Mitul9703/TNCPL---Newsphere---Personalised-news-aggregator.git`
+- cd into the Newsphere directory `cd Newsphere' and run the following command to install necessary packages.
   `npm i`
 - Run the following command to start bundling and host the development server.
     `npx expo start`
 - Scan the QR code appearing on the terminal with your Expo Go app.
 - If you're not able to connect the development server to your Expo Go, then run the following command instead
     `npx expo start --tunnel`
+
+To run the flask backend api endpoints
+
+- cd into newsapi_backend `cd newsapi_backend` and install required packages.
+- Run `python3 app.py` and `ngrok http 5000`.
+- Copy and paste the ngrok url in `Newsphere\contants\NgrokURL.js` and then hit `ctrl + s`.
+
+To run the Laguage Translation API endpoint
+
+- Open Kaggle and import the ipynb file in `indicTrans_API_run_on_kaggle_using_ngrok` folder.
+- Choose GPUP100 as accelerator and click `run all`.
+- Copy and past the ngrok url found in the output of the last cell in `Newsphere/NAtiveLanguageScreen.js`
+  `const response = await fetch(
+        "<Paste Ngrok URl here >/translate",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            title: item.title,
+            body: item.body,
+            target_lang: selectedLanguage,
+          }),
+        }
+      );`
+  - Hit `ctrl + s`.
