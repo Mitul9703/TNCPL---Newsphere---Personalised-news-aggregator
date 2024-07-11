@@ -1,4 +1,4 @@
-# TNCPL050 - Newsphere : Your personalized news aggregator
+# TNCPL Hackathon submission - Newsphere : Your personalized news aggregator (Seecured 2nd Place)
 
 ## IMPORTANT!!!
 ## Please visit the following link for the Mobile app's video demostration and working and the project report
